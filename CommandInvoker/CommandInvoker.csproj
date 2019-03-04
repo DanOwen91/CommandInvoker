@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CommandInvokerInterfaces\CommandInvokerInterfaces.csproj" />
+    <ProjectReference Include="..\Logger\Logger.csproj" />
+  </ItemGroup>
+
 </Project>
